@@ -105,15 +105,15 @@ const users = [
   }
 ]
 
-// function printNameAndPhones(arrofUsers) {
-//   i = 0
-//   while (i < arrofUsers.length) {
-//     `${arrofUsers[i].name}`
-//     `Cell: ${arrofUsers[i].phones.cell}` 
-//     `Office: ${arrofUsers[i].phones.office}` 
-//     i ++
-//   }
-// }
+function printNameAndPhones(arrofUsers) {
+  let i = 0
+  while (i < arrofUsers.length) {
+    `${arrofUsers[i].name}`
+    `Cell: ${arrofUsers[i].phones.cell}` 
+    `Office: ${arrofUsers[i].phones.office}` 
+    i ++
+  }
+}
 printNameAndPhones(users)
 // => "Duane"
 // => "Cell: 555-123-4567"
