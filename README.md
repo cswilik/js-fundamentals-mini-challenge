@@ -26,26 +26,26 @@ This assessment is meant to give you a chance to practice with the key skills yo
 
 ### Question 1
 
-Create a variable called `counter` and assign it to a value of 1. Then, on a new line, *reassign* the value of `counter` to 2.
+<!-- Create a variable called `counter` and assign it to a value of 1. Then, on a new line, *reassign* the value of `counter` to 2.
 
 ```js
 console.log(counter) 
 // => 2
-```
+``` -->
 
 ### Question 2
 
-Create a variable called `name` and assign it to a value of your name. You *should not* be able to reassign the variable after it has been created.
+<!-- Create a variable called `name` and assign it to a value of your name. You *should not* be able to reassign the variable after it has been created.
 
 ```js
 // attempting to reassign should throw an error
 name = "Not Raffy" 
 // => TypeError
-```
+``` -->
 
 ### Question 3
 
-Convert this Ruby method into a Javascript function. Follow Javascript syntax and naming conventions for your function.
+<!-- Convert this Ruby method into a Javascript function. Follow Javascript syntax and naming conventions for your function.
 
 ```rb
 def drink_water(current_thirst_level)
@@ -63,11 +63,11 @@ console.log(drinkWater(12))
 // => "Man I sure am thirsty"
 // => "Ahh that hits the spot"
 // => 11
-```
+``` -->
 
 ### Question 4
 
-Write a function `sameSameButDifferent` that takes in two arguments, `num` and `maybeNum`. If `num` and `maybeNum` are both numbers, and the same value, it should return `"same same"`. If `num` is the same value as `maybeNum` after converting `maybeNum` to a number, it should return `"same same (but different)"`. Otherwise, it should return `"different"`.
+<!-- Write a function `sameSameButDifferent` that takes in two arguments, `num` and `maybeNum`. If `num` and `maybeNum` are both numbers, and the same value, it should return `"same same"`. If `num` is the same value as `maybeNum` after converting `maybeNum` to a number, it should return `"same same (but different)"`. Otherwise, it should return `"different"`.
 
 ```js
 console.log(sameSameButDifferent(5, 5)) 
@@ -80,12 +80,12 @@ console.log(sameSameButDifferent(5, 7))
 // => "different"
 
 console.log(sameSameButDifferent(123, "122")) 
-// => "different"
+// => "different" -->
 ```
 
 ### Question 5
 
-Write a function `updateGrade` that takes two arguments: a `student` (object), and a `grade` (number). Calling this function should update the grade property on the `student` object to be the value of the `grade` argument.
+<!-- Write a function `updateGrade` that takes two arguments: a `student` (object), and a `grade` (number). Calling this function should update the grade property on the `student` object to be the value of the `grade` argument.
 
 ```js
 const student1 = { name: "Duane", grade: 88 }
@@ -94,11 +94,11 @@ updateGrade(student1, 92)
 
 console.log(student1)
 // => { name: "Duane", grade: 92 }
-```
+``` -->
 
 ### Question 6
 
-Convert this Ruby code into its Javascript equivalent. Follow Javascript syntax and naming conventions for your function.
+<!-- Convert this Ruby code into its Javascript equivalent. Follow Javascript syntax and naming conventions for your function.
 
 ```rb
 def print_name_and_phones(users)
@@ -133,7 +133,7 @@ print_name_and_phones(users)
 # => "Liza"
 # => "Cell: 555-234-5678"
 # => "Office: 555-567-1234"
-```
+``` -->
 
 ### Callbacks
 
@@ -155,7 +155,7 @@ You should not change any code inside the `myMap` function to get the following 
 
 ### Callbacks - Question 1
 
-Write a function `triple` to be used as a callback function with the `myMap` function, so that calling `myMap` with an array of numbers and your `triple` function will return a new array with each value from the original array tripled.
+<!-- Write a function `triple` to be used as a callback function with the `myMap` function, so that calling `myMap` with an array of numbers and your `triple` function will return a new array with each value from the original array tripled.
 
 ```js
 console.log(myMap([1,2,3,4,5], triple)) 
@@ -163,16 +163,16 @@ console.log(myMap([1,2,3,4,5], triple))
 
 console.log(myMap([2,4,6,8], triple))   
 // => [6,12,18,24]
-```
+``` -->
 
 ### Callbacks - Question 2
-
+<!-- 
 Write a function `greet` to be used as a callback function with the `myMap` function, so that calling `myMap` with an array of names and your `greet` function will return a new array with a greeting for each name.
 
 ```js
 console.log(myMap(["Raffy", "Chase"], greet)) 
 // => ["Hi, Raffy!", "Hi, Chase!"]
-```
+``` -->
 
 ### Scope & Closures
 
@@ -209,7 +209,7 @@ console.log(nowServing(line))
 
 ### Scopes & Closures - Question 1
 
-Create a `takeATicketNumber` function that will replace the `takeANumber` function. It only takes in one argument, a `line` (array). Instead of working with names, we'll have it work with ticket numbers. Calling `takeATicketNumber` should do two things:
+<!-- Create a `takeATicketNumber` function that will replace the `takeANumber` function. It only takes in one argument, a `line` (array). Instead of working with names, we'll have it work with ticket numbers. Calling `takeATicketNumber` should do two things:
 
 - Add a ticket number to the line (starting with ticket number 1)
 - Return a message `"Welcome. You are ticket number 1"`
@@ -233,7 +233,7 @@ console.log(nowServing(line))
 
 console.log(takeATicketNumber(line))
 // => `Welcome. You are ticket number 3`
-```
+``` -->
 
 ### Scopes & Closures - Question 2 (BONUS)
 
